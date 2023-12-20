@@ -1,0 +1,14 @@
+dev:
+  commands:
+  - command: npm install
+    directory: nextjs-auth0
+    name: install cmd
+  - command: npm i
+    directory: nextjs-auth0/example-app
+    name: install cmd
+  name: ""
+  packages:
+  - nixpkgs.nodejs_18
+  - nixpkgs.nodejs_21
+  repos:
+  - https://github.com/auth0/nextjs-auth0
